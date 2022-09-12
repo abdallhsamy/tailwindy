@@ -1,13 +1,4 @@
-
 <template>
-  <!--
-    This example requires updating your template:
-
-    ```
-    <html class="h-full bg-gray-100">
-    <body class="h-full">
-    ```
-  -->
   <div class="min-h-full">
     <!-- When the mobile menu is open, add `overflow-hidden` to the `body` element to prevent double scrollbars -->
     <Popover as="template" v-slot="{ open }">
