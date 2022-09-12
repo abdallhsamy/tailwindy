@@ -20,4 +20,13 @@ const router = createRouter({
     },
 });
 
+/* Set Document title and route meta */
+const defaultDocumentTitle = 'Tailwindy';
+
+router.afterEach((to) => {
+    document.title = to.meta?.title
+        ? `${to.meta.title} — ${defaultDocumentTitle}`
+        : defaultDocumentTitle;
+});
+
 export default router;
