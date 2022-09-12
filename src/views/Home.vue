@@ -365,26 +365,34 @@ const questions = [
     replies: '11',
     views: '2.7k',
     author: {
-      name: 'Dries Vincent',
+      name: 'Abdallah Samy',
       imageUrl:
-          'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+          'https://res.cloudinary.com/practicaldev/image/fetch/s--q-ayRDOb--/c_fill,f_auto,fl_progressive,h_50,q_auto,w_50/https://dev-to-uploads.s3.amazonaws.com/uploads/user/profile_image/311972/b51db9b4-c0b7-4c18-b1ea-ea59558eda40.jpeg',
       href: '#',
     },
     date: 'December 9 at 11:43 AM',
     datetime: '2020-12-09T11:43:00',
     href: '#',
-    title: 'What would you have done differently if you ran Jurassic Park?',
+    title: 'Laravel Pipeline Design Pattern Example',
     body: `
-      <p>Jurassic Park was an incredible idea and a magnificent feat of engineering, but poor protocols and a disregard for human safety killed what could have otherwise been one of the best businesses of our generation.</p>
-      <p>Ultimately, I think that if you wanted to run the park successfully and keep visitors safe, the most important thing to prioritize would be&hellip;</p>
-    `,
+      <div class="crayons-article__body text-styles spec__body" data-article-id="687398" id="article-body">
+            <p>Using laravel pipelines you can pass an object between several classes in a fluid way to perform any type of task and finally return the resulting value once all the “tasks” have been executed.</p>
+
+<p>Larval uses the Pipeline Design Pattern in a couple of places throughout the framework. This means everything we need to implement this pattern is already part of the foundation of your application!</p>
+
+<p>In today’s tutorial we will be looking at the Pipeline Design Pattern and how we can filter data using laravel pipeline, in this tutorial we are going to see that.</p>
+... more
+
+
+          </div>
+`,
   },
   // More questions...
 ]
 const whoToFollow = [
   {
-    name: 'Leonard Krasner',
-    handle: 'leonardkrasner',
+    name: 'Abdallah Samy',
+    handle: 'abdallhsamy',
     href: '#',
     imageUrl:
         'https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
